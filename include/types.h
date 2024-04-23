@@ -1,3 +1,5 @@
+#ifndef TYPES_H
+#define TYPES_H
 #pragma once
 #include <stddef.h>
 #include <stdint.h>
@@ -83,4 +85,6 @@ typedef enum ClipperPointInPolygonResult {
 
 #ifdef __cplusplus
 }
+#endif
+
 #endif
