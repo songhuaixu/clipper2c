@@ -1,8 +1,10 @@
 #include <clipper2/clipper.h>
 
 #include "conv.h"
+#include "conv.svg.h"
 #include "types.h"
 #include <clipper2c.h>
+#include <clipper2c.svg.h>
 #include <stdint.h>
 
 using namespace Clipper2Lib;

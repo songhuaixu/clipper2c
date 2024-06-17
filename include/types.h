@@ -19,8 +19,6 @@ typedef struct ClipperRect64 ClipperRect64;
 typedef struct ClipperRectD ClipperRectD;
 typedef struct ClipperPolyTree64 ClipperPolyTree64;
 typedef struct ClipperPolyTreeD ClipperPolyTreeD;
-typedef struct ClipperSvgWriter ClipperSvgWriter;
-typedef struct ClipperSvgReader ClipperSvgReader;
 
 typedef struct ClipperPointD {
   double x;
