@@ -6,8 +6,8 @@ extern "C" {
 #endif
 
 // memory size
-size_t clipper_svgwriter_size() { return sizeof(SvgWriter); }
-size_t clipper_svgreader_size() { return sizeof(SvgReader); }
+size_t clipper_svgwriter_size() { return sizeof(Clipper2Lib::SvgWriter); }
+size_t clipper_svgreader_size() { return sizeof(Clipper2Lib::SvgReader); }
 
 // destruction
 void clipper_destruct_svgwriter(ClipperSvgWriter *p) {
