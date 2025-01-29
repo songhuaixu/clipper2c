@@ -53,7 +53,7 @@ ClipperClipperOffset *to_c(Clipper2Lib::ClipperOffset *p) {
 ClipperClipType to_c(Clipper2Lib::ClipType cliptype) {
   ClipperClipType ct = NONE;
   switch (cliptype) {
-  case Clipper2Lib::ClipType::None:
+  case Clipper2Lib::ClipType::NoClip:
     break;
   case Clipper2Lib::ClipType::Intersection:
     ct = INTERSECTION;
@@ -193,7 +193,7 @@ Clipper2Lib::ClipperOffset *from_c(ClipperClipperOffset *p) {
 }
 
 Clipper2Lib::ClipType from_c(ClipperClipType fr) {
-  Clipper2Lib::ClipType clipType = Clipper2Lib::ClipType::None;
+  Clipper2Lib::ClipType clipType = Clipper2Lib::ClipType::NoClip;
   switch (fr) {
   case NONE:
     break;
